@@ -30,16 +30,54 @@ $row = $result->fetch_assoc();
 <html>
 <head>
     <title>Editar Cliente</title>
+    <link rel="stylesheet" type="text/css" href="css/add.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h2>Editar Cliente</h2>
-    <form action="edit.php" method="post" enctype="multipart/form-data">
-        <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
-        Nome: <input type="text" name="nome" value="<?php echo $row['nome']; ?>" required><br>
-        Email: <input type="email" name="email" value="<?php echo $row['email']; ?>" required><br>
-        Telefone: <input type="text" name="telefone" value="<?php echo $row['telefone']; ?>"><br>
-        Foto: <input type="file" name="foto" required><br>
-        <input type="submit" value="Salvar">
-    </form>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="brand">Cadastrar</a>
+            <ul class="nav-links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="add.php">Adicionar Cliente</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="wrapper">
+        <form action="edit.php" method="post" enctype="multipart/form-data">
+            <h1>Editar Cliente</h1>
+
+            <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+
+            <div class="input-box">
+                <input type="text" name="nome" value="<?php echo $row['nome']; ?>" required>
+                <label for="">Nome</label>
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="email" name="email" value="<?php echo $row['email']; ?>" required>
+                <label for="">Email</label>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="telefone" value="<?php echo $row['telefone']; ?>" required>
+                <label for="">Telefone</label>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+
+            <div class="input-box file-input">
+                <div class="file-upload-container">
+                    <i class="fa-solid fa-image"></i>                
+                </div>
+                <input type="file" name="foto" id="foto" required>
+            </div>
+
+            <button type="submit" class="btn" value="Salvar">Adicionar</button>
+        </form>
+    </div>
 </body>
 </html>

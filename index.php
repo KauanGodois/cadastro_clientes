@@ -16,7 +16,7 @@ $result = $conn->query("SELECT * FROM clientes");
         <div class="table-header">
             <p>Informações dos Clientes</p>
             <div>
-                <input type="text" class="search" placeholder="Pesquisar">
+                <input type="text" class="search" placeholder="Pesquisar por nome...">
                 <button class="btn-add" id="addBtn">+ Adicionar Cliente</button>
             </div>
         </div>
@@ -57,29 +57,20 @@ $result = $conn->query("SELECT * FROM clientes");
                         </td>
                     </tr>
                     <?php endwhile; ?>
+                    <tr class="no-results" style="display: none;">
+                        <td colspan="5">Nenhum resultado encontrado</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
 
     <div class="pagination">
-        <div><i class="fa-solid fa-angles-left"></i></div>
-        <div><i class="fa-solid fa-angle-left"></i></div>
-        <div>1</div>
-        <div>2</div>
-        <div><i class="fa-solid fa-angle-right"></i></div>
-        <div><i class="fa-solid fa-angles-right"></i></div>
+        <div class="prev-page"><i class="fa-solid fa-angles-left"></i></div>
+        <div class="next-page"><i class="fa-solid fa-angles-right"></i></div>
     </div>  
 
-    <script>
-        
-        document.addEventListener('DOMContentLoaded', () => {
-        const addButton = document.getElementById('addBtn');
-        addButton.addEventListener('click', () => {
-            window.location.href = 'add.php'; // Redireciona para add.php
-        });
-    });
-
-    </script>
+    <script src="js/scripts.js"></script>
+    
 </body>
 </html>
