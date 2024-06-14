@@ -1,7 +1,7 @@
-📖 *liente Cadastro - Sistema de Gerenciamento de Clientes*
+# 📖 **Cliente Cadastro - Sistema de Gerenciamento de Clientes**
 Cliente Cadastro é uma aplicação web simples desenvolvida em PHP que permite gerenciar informações de clientes de maneira eficiente. O sistema permite adicionar, editar, excluir e pesquisar clientes, além de suportar a funcionalidade de paginação para facilitar a navegação pelos registros. A aplicação utiliza um banco de dados MySQL para armazenar as informações dos clientes.
 
-📝 *Sumário*
+## 📝 **Sumário**
 Pré-requisitos
 Instalação
 Configuração
@@ -11,7 +11,7 @@ Tecnologias Utilizadas
 Estrutura do Projeto
 Contato
 
-🔧 *Pré-requisitos*
+## 🔧 **Pré-requisitos**
 Antes de iniciar, você precisará ter os seguintes softwares instalados em sua máquina:
 
 XAMPP ou outro servidor LAMP/MAMP/WAMP.
@@ -19,7 +19,7 @@ PHP 7.0+
 MySQL
 Composer (opcional, para gerenciamento de dependências)
 
-🚀 *Instalação*
+## 🚀 **Instalação**
 Siga os passos abaixo para configurar a aplicação:
 
 1. Clone o repositório:
@@ -63,7 +63,7 @@ if ($conn->connect_error) {
 
 http://localhost/cliente-cadastro/index.php
 
-⚙️ *Configuração*
+## ⚙️ **Configuração**
 Certifique-se de configurar corretamente as credenciais do banco de dados no arquivo config.php.
 
 <?php
@@ -79,26 +79,26 @@ if ($conn->connect_error) {
 }
 ?>
 
-🎮 *Uso*
+## 🎮 **Uso**
 1. Página Inicial: Mostra a lista de clientes com opções para editar e excluir.
 2. Adicionar Cliente: Clique no botão Adicionar para ir à página de adição de clientes, onde você pode preencher informações e fazer upload de uma foto.
 3. Pesquisar: Utilize o campo de pesquisa para filtrar os clientes por nome.
 4. Paginação: Use os botões Anterior e Próxima para navegar entre as páginas de clientes.
 
-🛠️ *Funcionalidades*
+## 🛠️ **Funcionalidades**
 Adicionar Cliente: Permite inserir novos clientes no banco de dados.
 Editar Cliente: Permite atualizar informações dos clientes existentes.
 Excluir Cliente: Remove um cliente da base de dados.
 Pesquisar Cliente: Pesquisa clientes pelo nome em tempo real.
 Paginação: Facilita a navegação pelos registros de clientes.
 
-🧰 *Tecnologias Utilizadas*
+## 🧰 **Tecnologias Utilizadas**
 Front-end: HTML, CSS, JavaScript
 Back-end: PHP
 Banco de Dados: MySQL
 Servidor: Apache via XAMPP
 
-🗂️ *Estrutura do Projeto*
+## 🗂️ **Estrutura do Projeto**
 /cliente-cadastro
 |-- /css
 |   |-- add.css             # Estilos para a página de adicionar e editar cliente 
@@ -115,6 +115,6 @@ Servidor: Apache via XAMPP
 |-- clienteDB.sql           # Script SQL para criar as tabelas no banco de dados
 |-- README.md               # Documentação do projeto
 
-📞 *Contato*
+## 📞 **Contato**
 Nome: Kauan Alves Godois
 E-mail: kauan.godois07@gmail.com
