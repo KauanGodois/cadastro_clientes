@@ -93,10 +93,10 @@ Certifique-se de configurar corretamente as credenciais do banco de dados no arq
 **Paginação:** Facilita a navegação pelos registros de clientes.
 
 ## 🧰 **Tecnologias Utilizadas**
-    Front-end: HTML, CSS, JavaScript
-    Back-end: PHP
-    Banco de Dados: MySQL
-    Servidor: Apache via XAMPP
+Front-end: HTML, CSS, JavaScript \
+Back-end: PHP \
+Banco de Dados: MySQL \
+Servidor: Apache via XAMPP
 
 ## 🗂️ **Estrutura do Projeto**
     /cliente-cadastro
@@ -116,5 +116,5 @@ Certifique-se de configurar corretamente as credenciais do banco de dados no arq
     |-- README.md               # Documentação do projeto
 
 ## 📞 **Contato**
-    Nome: Kauan Alves Godois
-    E-mail: kauan.godois07@gmail.com
+Nome: Kauan Alves Godois \
+E-mail: kauan.godois07@gmail.com
