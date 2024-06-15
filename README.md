@@ -93,10 +93,10 @@ Pesquisar Cliente: Pesquisa clientes pelo nome em tempo real.
 Paginação: Facilita a navegação pelos registros de clientes.
 
 ## 🧰 **Tecnologias Utilizadas**
-Front-end: HTML, CSS, JavaScript
-Back-end: PHP
-Banco de Dados: MySQL
-Servidor: Apache via XAMPP
+    Front-end: HTML, CSS, JavaScript
+    Back-end: PHP
+    Banco de Dados: MySQL
+    Servidor: Apache via XAMPP
 
 ## 🗂️ **Estrutura do Projeto**
     /cliente-cadastro
