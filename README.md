@@ -86,11 +86,11 @@ Certifique-se de configurar corretamente as credenciais do banco de dados no arq
 4. Paginação: Use os botões Anterior e Próxima para navegar entre as páginas de clientes.
 
 ## 🛠️ **Funcionalidades**
-Adicionar Cliente: Permite inserir novos clientes no banco de dados.
-Editar Cliente: Permite atualizar informações dos clientes existentes.
-Excluir Cliente: Remove um cliente da base de dados.
-Pesquisar Cliente: Pesquisa clientes pelo nome em tempo real.
-Paginação: Facilita a navegação pelos registros de clientes.
+**Adicionar Cliente:** Permite inserir novos clientes no banco de dados. \
+**Editar Cliente:** Permite atualizar informações dos clientes existentes. \
+**Excluir Cliente:** Remove um cliente da base de dados. \
+**Pesquisar Cliente:** Pesquisa clientes pelo nome em tempo real. \
+**Paginação:** Facilita a navegação pelos registros de clientes.
 
 ## 🧰 **Tecnologias Utilizadas**
     Front-end: HTML, CSS, JavaScript
