@@ -2,14 +2,14 @@
 Cliente Cadastro é uma aplicação web simples desenvolvida em PHP que permite gerenciar informações de clientes de maneira eficiente. O sistema permite adicionar, editar, excluir e pesquisar clientes, além de suportar a funcionalidade de paginação para facilitar a navegação pelos registros. A aplicação utiliza um banco de dados MySQL para armazenar as informações dos clientes.
 
 ## 📝 **Sumário**
- Pré-requisitos \
- Instalação \
- Configuração \
- Uso \
- Funcionalidades \
- Tecnologias Utilizadas \
- Estrutura do Projeto \
- Contato
+ **Pré-requisitos** \
+ **Instalação** \
+ **Configuração** \
+ **Uso** \
+ **Funcionalidades** \
+ **Tecnologias Utilizadas** \
+ **Estrutura do Projeto** \
+ **Contato**
 
 ## 🔧 **Pré-requisitos**
 Antes de iniciar, você precisará ter os seguintes softwares instalados em sua máquina:
