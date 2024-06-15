@@ -14,9 +14,9 @@ Cliente Cadastro é uma aplicação web simples desenvolvida em PHP que permite 
 ## 🔧 **Pré-requisitos**
 Antes de iniciar, você precisará ter os seguintes softwares instalados em sua máquina:
 
-XAMPP ou outro servidor LAMP/MAMP/WAMP.
-PHP 7.0+
-MySQL
+XAMPP ou outro servidor LAMP/MAMP/WAMP.\
+PHP 7.0+ \
+MySQL \
 Composer (opcional, para gerenciamento de dependências)
 
 ## 🚀 **Instalação**
